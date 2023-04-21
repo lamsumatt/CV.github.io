@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px 40px 40px 100px;
+}
+
+/* info */
+.section h1{
+    font-size: 2.5rem;
+    margin-bottom: -0.2em;
+}
+#info .section-content{
+    display:inline-block;
+}
+
+.section-content #info{
+    width: 6em;
+    float: left;
+    margin-right: 4em;
+}
+.section-content #thongtin{
+    width: 20em;
+    float: left;
+    font-size: 1.17em;
+}
+.section-content #daidien{
+    width: 30px;
+    float: right;
+}
+#info a:link{
+    color: black;
+    text-decoration: none;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    width: 6.5rem;
+    height: 7.5rem;
+    margin-left: 25em;
+    margin-top: -2rem;
+}
+
+/* target */
+h2{
+    border-bottom: 2px solid #000;
+}
+.section-content .paragraph{
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.17em;
+}
+
+/* Education */
+#education, #experience, #activity, #skill, #certificate{
+    width: 100%;
+    display: inline-block;
+}
+#education, #experience, #activity, #skill, #certificatet .section-content{
+    margin-top: -1.5em;
+}
+#education, #experience, #activity, #skill, #certificate .content p{
+    font-weight: 500;
+    font-size: 1.16em;
+}
+.content .time{
+    width: 140px;
+    float: left;
+}
+.content .content-child{
+    width: 44em;
+    float: right;
+    margin-top: 6px;
+    line-height: 0.4em;
+ }
+.section-content .content{
+    border-bottom:2px solid #eeeeee;
+}
+
+/* experience */
+#experience,  #activity, #skill, #certificate{
+    margin-top: 1.5rem;
+}
+/* skill */
+#skill .content .time p{
+    font-weight: bold;
+}
+
+/* certificate */
+#certificate .content-child {
+    margin-right: 7em;
+}
+
+/* hobby */
+#hobby, #project, #contact .section-title h2 {
+    margin-top: 2em;
+}
+.section-content ul{
+    margin-left: -1.5em;
+    margin-top: -0.5em;
+    font-size: 1.16em;
+}
+
+#project .section-content h2{
+    border: none;
+}
+#project .section-content p{
+    margin-top: -1em;
+    margin-bottom: 1em;
+    font-weight: initial;
+}
+/* contact */
+#contact .section-content{
+    border-bottom: 2px solid #ddd;
+}
+#contact .section-content ol{
+    margin-left: -1.5em;
+}
+#contact .section-content a:link{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.16em;
+}
+
